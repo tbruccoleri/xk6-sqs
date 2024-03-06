@@ -23,7 +23,7 @@ Then, install [xk6](https://github.com/grafana/xk6) and build your custom k6 bin
 2. Build the binary:
 
   ```shell
-  $ xk6 build --with github.com/mridehalgh/xk6-sqs@latest
+  $ xk6 build --with github.com/tbruccoleri/xk6-sqs@latest
   ```
 
 ## AWS credentials

@@ -12,7 +12,7 @@ export AWS_ENDPOINT=http://localhost:4566
 
 go install github.com/k6io/xk6/cmd/xk6@latest
 xk6 build \
-    --with github.com/mridehalgh/xk6-sqs@latest=.
+    --with github.com/tbruccoleri/xk6-sqs@latest=.
 
 QUEUE_NAME=dummy-k6-queue
 
